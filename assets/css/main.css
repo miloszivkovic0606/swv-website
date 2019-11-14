@@ -1,0 +1,1934 @@
+@import url('https://rsms.me/inter/inter.css');
+
+@supports (font-variation-settings: normal) {
+    html {
+        font-family: 'Inter', sans-serif;
+    }
+}
+
+h1 {
+    font-size: 50px;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+#landing_page {
+    /* width: 100%; */
+    background: url(../img/Background_01.png) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.powByMagenta {
+    text-align: end;
+    font-size: 25px;
+    margin: 0 0 150px 80px;
+    color: white;
+    align-self: flex-end;
+}
+
+/* .navbar {
+    position: absolute !important;
+    width: 100%;
+    z-index: 1;
+    
+} */
+.collapse {
+    margin-top: -5em;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+    border-color: rgb(101, 97, 99);
+}
+
+.nav-item a {
+    /* margin-top: -3em !important; */
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    margin-right: 5em !important;
+}
+
+.dropdown-divider {
+    border-color: #333333 !important;
+    margin: 0;
+
+}
+
+.dropdown-menu {
+    padding: 0;
+}
+
+.dropdown-item {
+    color: white;
+    padding: 1rem 1.5rem;
+}
+
+.dropdown-item:active {
+    background: #161617 !important;
+}
+
+.dropdown_arrow_red {
+    display: none;
+}
+
+.dropdown:hover .dropdown_arrow_red {
+    display: inline;
+
+}
+
+.dropdown:hover .dropdown_arrow_white {
+    display: none;
+
+}
+
+.logo {
+    width: auto;
+    height: 126px;
+    margin-left: 10em !important;
+    margin-top: 0;
+}
+
+.logo2 {
+    width: auto;
+    height: 50px;
+    margin-left: 10em !important;
+    margin-top: -1em;
+}
+
+/* ANGEBOT */
+
+.angebot {
+    padding: 0;
+}
+
+.angebot p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #828282;
+    font-weight: 500;
+}
+
+.angebot h2 {
+    color: #4F4F4F;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.angebot_main_col {
+    padding: 0;
+}
+
+.angebot_main_row {
+    padding: 100px 0;
+}
+
+.red_triangl_img {
+    object-fit: none;
+    align-self: flex-end;
+}
+
+
+/* MAIN */
+.main_left_content {
+    margin: 18em 0em 7em 10em;
+    width: 100%;
+    height: auto;
+    color: white;
+}
+
+.main_left_content h1 {
+    font-size: 55px;
+    line-height: 65px;
+    font-weight: 600;
+    padding-bottom: .8em;
+}
+
+.main_left_content h4 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    white-space: nowrap;
+    padding: .8em 0;
+    margin-bottom: 6em;
+}
+
+.produkte_btn {
+    background-color: #BE1623;
+    border: none;
+    border-radius: 0px;
+    padding: 1em 4em;
+    margin-bottom: 15em;
+}
+
+.produkte_btn:hover {
+    background-color: #BE1623;
+
+}
+
+@media (max-width: 768px) {
+
+    .navbar-collapse {
+        /* position: relative; */
+        top: 100%;
+        margin-top: 10rem;
+        right: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 30px;
+        width: 100%;
+        line-height: 15px;
+        transition: all 0.3s ease;
+        background-color: #BE1623;
+        text-align: center;
+
+        /* display: block; */
+    }
+
+    .probootstrap-navbar .dropdown>a {
+        padding-right: 0 !important;
+    }
+
+    .nav-item a {
+        margin-right: 0 !important;
+    }
+
+    .dropdown-item:hover {
+        background: transparent;
+    }
+
+    .nav-item a {
+        margin-top: 3rem !important;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 36px !important;
+        text-align: center !important;
+        color: #FFFFFF !important;
+        font-family: 'Inter', sans-serif;
+        padding-right: 0 !important;
+    }
+
+    .nav-item a:hover::after {
+
+        display: none;
+    }
+
+    .logo {
+        width: 80%;
+        height: auto;
+
+    }
+
+    .navbar {
+        padding: 0;
+    }
+
+    .navbar-collapse.collapsing {
+        height: auto !important;
+        margin-right: 50%;
+        transition: all 0.3s ease;
+        display: block;
+    }
+
+    .navbar-collapse.show {
+        right: 0;
+    }
+
+    .navbar-toggler {
+        border: none !important;
+        margin-left: 15em;
+    }
+
+    button:focus {
+        outline: 0 !important;
+    }
+
+    .pistac .container-fluid {
+        margin: 0 !important;
+    }
+
+    .main_left_content {
+        text-align: center;
+        margin: 10em 0 2em 0;
+        padding-left: 1.875rem;
+
+    }
+
+    .main_left_content h1 {
+        font-size: 24px;
+        padding-top: 4em;
+        line-height: 36px;
+        text-align: left;
+        color: #212121;
+    }
+
+    .main_left_content h4 {
+        font-size: 16px;
+        padding: .8em 0;
+        text-align: left;
+        white-space: normal;
+        color: #212121;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    #landing_page {
+        background: url(../img/menu.png) no-repeat center center;
+        background-size: 100%;
+        background-position: top;
+
+    }
+
+    .product_2 {
+        margin: 2em 0 !important;
+    }
+
+    .about_nomik img {
+        width: 100%;
+
+    }
+
+    .about_nomik {
+        text-align: left;
+    }
+
+    .about_nomik p {
+        text-align: left;
+        font-size: 15px;
+    }
+
+    .button_nomik_seite {
+        text-align: center;
+    }
+
+    /* ANGEBOT */
+
+    .angebot {
+        padding: 1rem;
+    }
+
+    .angebot_main_row {
+        padding: 0;
+    }
+
+    .angebot p {
+        text-align: left;
+    }
+
+    .angebot h2 {
+        text-align: left;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .red_triangl_img {
+        display: none;
+    }
+
+
+    .powByMagenta {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1440px) {
+    .angebot .left_trougao {
+        bottom: -142%;
+    }
+
+    .angebot .right_trougao {
+        bottom: -142%;
+    }
+
+    .nav-item a {
+        margin-right: 3em !important;
+    }
+}
+
+/* PRODUCT SECTION */
+.product_section p {
+    text-align: left;
+    color: #828282;
+    padding-bottom: .6em;
+    line-height: 21px;
+    font-size: 14px;
+}
+
+.product_section h5 {
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 0.5em;
+}
+
+/* .product_telephone{
+    margin-top: 12em;
+} */
+.product_heading {
+    color: #4F4F4F;
+
+}
+
+.product_heading_text {
+    text-align: left;
+    padding: 0 193px;
+    font-size: 1rem;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+
+
+.product_section h2 {
+    color: #4F4F4F;
+    padding-bottom: 0.2em;
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 31px;
+}
+
+.product_1,
+.product_2,
+.product_3 {
+    border: 1px solid #c2d1d9;
+    padding: 1.5em 1em;
+    background: white;
+    transition: 0.5s;
+}
+
+.product_1:hover,
+.product_2:hover,
+.product_3:hover {
+
+    transform: scale(1.1);
+    box-shadow: 0px 10px 10px rgba(43, 41, 41, 0.15);
+}
+
+
+.product_2 {
+    margin: 0 2em;
+}
+
+.lese_product_btn {
+    background-color: #4F4F4F;
+    border: none;
+    border-radius: 0px;
+    padding: 1em 3em;
+    transition: 0.5s;
+
+}
+
+.lese_product_btn:hover {
+    /* background-color: rgb(77, 87, 103); */
+    background-color: #e20074;
+}
+
+.btnBlockWidth {
+    width: 100%;
+}
+
+.lese_product_btn1 {
+    background-color: #e20074 !important;
+    border: none;
+    border-radius: 0px;
+    padding: .8em 2em;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.lese_product_btn1:hover {
+    /* background-color: rgb(77, 87, 103); */
+    background-color: #e20074;
+}
+
+
+.magentaButton {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.btn:active:focus {
+
+    background-color: transparent !important;
+    border-color: none;
+}
+
+.btn:active {
+    box-shadow: none !important;
+}
+
+
+
+/* NOMIK section */
+.about_nomik p {
+    color: #828282;
+    /* padding: .8em 0; */
+}
+
+.about_nomik img {
+    margin-top: 9em;
+}
+
+.nomik_background_color {
+    background-color: #F2F5F7;
+}
+
+.about_nomik {
+    margin: 8em 0 0 0;
+}
+
+.about_nomik h4 {
+    color: #424B5A;
+    font-size: 1.5em;
+}
+
+.nomik_right_content {
+    margin: 4em 0;
+}
+
+.nomik_right_content ul {
+    padding-left: 0 !important;
+}
+
+/* SWV section */
+
+.about_swv {
+    height: auto;
+    background-color: #BE1623;
+}
+
+.swv_left_content p {
+    color: #FFFFFF;
+}
+
+.swv_left_content .quote {
+    font-size: 14px;
+
+}
+
+.about_swv h4 {
+    font-size: 1.5em;
+    color: #FFFFFF;
+}
+
+.swv_img {
+    /* margin-top: -2em; */
+    margin: 5em 0;
+}
+
+.swv_left_content {
+    margin: 10em 8em;
+}
+
+.swv_left_content .wirtchaft_link {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.swv_btn {
+    background-color: white !important;
+    border: none;
+    border-radius: 0px;
+    padding: 1em 4em !important;
+    color: #BE1623 !important;
+    font-weight: bold;
+}
+
+
+
+/* Der Charakter ruht auf der Persönlichkeit, nicht auf Talenten. - ZIKA */
+
+.Der_Charakter_Box {
+    height: 945.391px;
+    padding: 0;
+}
+
+.Der_Charakter_Box h1 {
+    font-size: 2.25rem;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #4F4F4F;
+    padding-left: 10px;
+}
+
+.first_row {
+    margin: 150px 0 20px;
+}
+
+.first_row_text {
+    padding: 0;
+}
+
+.first_row_text p {
+    font-size: 1.125rem;
+}
+
+/* .Der_Charakter_Box_text_leftParagraf::first-line
+{
+    text-align: justify;
+} */
+
+
+.verticalLine {
+    align-self: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+/* WHY NOMIK BACKGROUND */
+.nomik_background_img {
+    background: url(../img/Background_02.png) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.why_nomik h4 {
+    padding: .4em 0 6em 0;
+    color: white;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 50px;
+
+}
+
+.why_nomik .card {
+    background-color: transparent;
+    border: none;
+    margin-top: 3em;
+    padding-bottom: 5em;
+}
+
+.why_nomik .card-text {
+    font-weight: 700;
+    font-size: 86px;
+    line-height: 31px;
+    color: #BE1623;
+}
+
+.why_nomik .card-footer {
+    border: none;
+    line-height: 25px;
+}
+
+.why_nomik .inline_row {
+    white-space: nowrap;
+}
+
+.why_nomik p {
+    color: white;
+}
+
+.why_nomik h1 {
+    color: #FFFFFF;
+    padding: 3em 0 0em 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.why_nomik img {
+    margin-bottom: 1em;
+}
+
+.why_nomik {
+    padding-bottom: 2em;
+}
+
+/* CONTACT FORM */
+
+
+.contact_us_heading {
+    color: #4F4F4F;
+    padding: 1.5em 0 .5em 0;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.input_aligment {
+    border-radius: 2px;
+    height: 3.5em;
+    border-color: #C2D1D9;
+}
+
+.input_aligment::placeholder {
+    color: #C2D1D9;
+}
+
+
+
+
+
+.form_mySelectClass {
+    margin-bottom: 1.5rem;
+    padding: 0 !important;
+    height: 3.5em !important;
+    border: none;
+}
+
+
+
+#subject {
+    margin-bottom: 1.5rem;
+    padding: 0 10px !important;
+    height: 3.5em !important;
+
+    background-image:
+        linear-gradient(45deg, transparent 50%, #4F4F4F 60%),
+        linear-gradient(135deg, #4F4F4F 40%, transparent 50%) !important;
+    background-position:
+        calc(100% - 30px) 22px,
+        calc(100% - 20px) 22px,
+        100% 0;
+    background-size:
+        10px 10px,
+        10px 10px;
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+}
+
+
+
+
+
+.form_submit_btn {
+    background-color: #4F4F4F;
+    border: none;
+    border-radius: 0px;
+    padding: 1em 3em;
+    color: white;
+    font-weight: bold;
+}
+
+.form_submit_btn:hover {
+    background-color: rgb(77, 87, 103);
+
+}
+
+.textarea_aligment {
+    border-radius: 2px;
+    height: 8em;
+    border-color: #C2D1D9;
+}
+
+.textarea_aligment::placeholder {
+    color: #C2D1D9;
+}
+
+.mail_number {
+    color: #A1AEB7;
+}
+
+.mail_number a {
+    color: #A1AEB7;
+
+}
+
+.online_meeting a {
+    color: #A1AEB7;
+    text-decoration: underline;
+}
+
+.owl-dot.active span {
+    background: #e20074 !important;
+}
+
+@media (max-width: 768px) {
+    .about_swv p {
+        text-align: left;
+    }
+
+    .about_swv_button {
+        text-align: center
+    }
+
+    .swv_left_content {
+        margin: 4em 0;
+    }
+
+    .swv_left_content p {
+        text-align: left;
+        color: #F2F5F7;
+
+    }
+
+    .swv_left_content .wirtchaft_link {
+        color: #F2F5F7;
+    }
+
+    .swv_img_section {
+        display: none;
+    }
+
+    .why_nomik h1 {
+        padding: 2em 0 !important;
+    }
+
+    .product_section h2 {
+        white-space: normal;
+        text-align: left;
+    }
+
+    .product_heading {
+        text-align: left !important;
+        padding: 50px 0 0 10px !important;
+        font-size: 2.5rem;
+
+    }
+
+    .product_heading_text {
+        padding: 0;
+        padding-left: 15px;
+
+    }
+
+    .why_nomik .inline_row {
+        white-space: normal !important;
+    }
+
+    .why_nomik p {
+        text-align: left;
+    }
+
+    .why_nomik h1 {
+        text-align: left;
+    }
+
+    .why_nomik h4 {
+        padding: 1em !important;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: left !important;
+    }
+
+    .why_nomik .card {
+        margin-top: 0;
+    }
+
+    .why_nomik .card-footer {
+        text-align: center;
+    }
+
+    .swv_mobile_background_red {
+        background-color: #BE1623;
+        color: #F2F5F7;
+    }
+
+    /* ZIKAAAAA */
+
+    .Der_Charakter_Box {
+        height: auto;
+        padding: 0 30px 30px;
+    }
+
+    .Der_Charakter_Box h1 {
+        text-align: left;
+        font-size: 1.5rem;
+        line-height: 1.4;
+    }
+
+    .Der_Charakter_Box p {
+        text-align: left;
+    }
+
+    .first_row {
+        margin: 50px 0 20px;
+
+    }
+
+    .verticalLine {
+        display: none;
+    }
+
+    .about_nomik img {
+        margin-top: 17em;
+    }
+
+}
+
+/* mobile scroll container's */
+
+/* .scrollContainer
+{
+    height: 100vh;
+    background-color: tomato;
+    text-align: center; 
+    opacity: 0;
+    transition: translateY (20px);
+    transition: all 0.5s ease-out
+   
+}  
+.scrollContainer.show
+{
+
+    opacity: 1 ;  
+    transition: translateY (0px);
+ 
+
+} */
+
+/* mobile scroll container's - Scroll Magic - classes */
+
+/* =Main */
+
+.project {
+    text-align: center;
+    padding: 200px 0;
+    border-bottom: 1px #ebebeb solid;
+    opacity: 0;
+    /*transform: translateY(50px);*/
+    transition: all 1s ease-out;
+}
+
+.project.fade-in {
+    opacity: 1;
+    /*transform: translateY(0);*/
+}
+
+.project img {
+    width: 180px;
+    height: 180px;
+}
+
+.project p {
+    max-width: 300px;
+    margin: 0 auto;
+    color: #294D67;
+}
+
+#project01 h2 {
+    color: #3DB3CE;
+}
+
+#project02 h2 {
+    color: #75C695;
+}
+
+/* #main {
+    position: relative;
+    background-color: #FFF;
+} */
+
+.bcg-parallax {
+    padding: 150px 0;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.bcg {
+    background: url('../img/img_background.jpg') no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 150%;
+    top: 0;
+    z-index: 1;
+    opacity: 0.7;
+}
+
+.content-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1140px;
+    position: relative;
+    z-index: 2;
+}
+
+.vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+}
+
+/* TELEFONIE page */
+
+.telefonie-product-section .tarif_box {
+    padding-top: 1rem;
+    margin-right: 0;
+    box-shadow: 0px 4px 10px rgba(43, 41, 41, 0.15);
+}
+
+.telefonie-product-section span {
+    font-size: 16px;
+}
+
+.telefonie-product-section .gray-color {
+    color: #828282;
+}
+
+.telefonie-product-section h1 {
+    font-size: 32px;
+}
+
+.telefonie-product-section .card_border {
+    border: none;
+    padding: 0;
+}
+
+
+.tarif_box {
+    margin-right: 2em;
+    background: #FFFFFF;
+}
+
+.tarif_boxRow1 {
+    background: #e20074;
+
+}
+
+
+.tarif_box:hover {
+    /* border: 2px solid #EB5757; */
+    box-shadow: 0px 4px 10px rgba(43, 41, 41, 0.15);
+}
+
+.card_border {
+    border-top: 1px solid #F2F5F7;
+    border-bottom: 1px solid #F2F5F7;
+}
+
+.border_remover1 {
+    border-bottom: none;
+
+}
+
+div.card_border:first-of-type {
+    border-top: none;
+}
+
+.card_border {
+    padding: 1em 0;
+}
+
+.btn_action {
+    background-color: #4F4F4F;
+    border: none;
+    border-radius: 0px;
+    padding: .8em 1.5em;
+    margin: 2em 0 1.4em 0;
+    font-size: 16px;
+}
+
+.btn_action:hover {
+    background-color: #BE1623;
+    color: white;
+}
+
+.home-office-heading {
+    padding-top: 10em;
+}
+
+.all_tarif {
+    padding: 6em 8em;
+    background-color: #F2F5F7;
+}
+
+.all_tarif h2 {
+    padding: .4em 0;
+    font-size: 32px;
+    ;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #4F4F4F;
+
+}
+
+.product_section strong {
+    color: #4F4F4F;
+    font-size: 14px;
+}
+
+.product_section strong:first-child {
+    line-height: 21px;
+}
+
+h1>strong {
+    color: #BE1623;
+}
+
+p {
+    color: #828282;
+}
+
+.all_tarif h4 {
+    color: #BE1623;
+    font-size: 32px;
+    ;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.all_tarif h3 {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #4F4F4F;
+    padding-top: 4em;
+}
+
+.all_tarif h1 {
+    color: #BE1623;
+    font-size: 32px;
+
+}
+
+.all_tarif p {
+    padding: 0 2em;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.telefonie_background_1 {
+    background: url(../img/blond-hair-chairs-coffee-2041627.jpg) center center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: left;
+    width: auto;
+
+}
+
+.telefonie_background_2 {
+    background: url(../img/businessman-cellphone-communication-859264.jpg) center center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: right;
+    width: auto;
+}
+
+.margin_between_telefonie_products {
+    margin-top: 10em;
+    margin-bottom: 5em;
+}
+
+.btn_telefonie_producte {
+    background-color: #4F4F4F;
+    border: none;
+    border-radius: 0px;
+    padding: 1em 3.5em;
+    margin: 2em 0 2em 0;
+    font-size: 16px;
+}
+
+.btn_telefonie_producte:hover {
+    background-color: rgb(77, 87, 103);
+
+}
+
+.telefonie_producte_heading_2 {
+    margin-bottom: 200px;
+}
+
+
+.telefonie_producte_heading_1 {
+    margin-top: 6em;
+}
+
+.telefonie_producte_heading_1 h3 {
+    font-size: 36px;
+    color: #4F4F4F;
+}
+
+.telefonanlage_list li {
+    line-height: 2.5em;
+}
+
+.telefonanlage_list h3 {
+    font-size: 36px;
+    color: #4F4F4F;
+}
+
+.telefonanlage_list ul {
+    padding-inline-start: 20px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.carousel-content {
+    position: absolute;
+    bottom: 20%;
+    left: 60%;
+    right: 15%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+.navActive::after {
+    content: "";
+    border-bottom: 2px solid red;
+    display: block;
+    margin-top: 0.6em;
+    margin-bottom: -1em;
+}
+
+.mobile_text_align_center {
+    margin-top: 5em;
+}
+
+/* TELEFONIE mobile */
+@media (max-width: 768px) {
+    .navActive::after {
+        content: "";
+        border-bottom: 3px solid red;
+        display: block;
+        margin-bottom: -1em;
+    }
+
+    .mobile_text_align_center {
+        text-align: center;
+    }
+
+    .feature_one_box {
+        margin: 0 !important;
+    }
+
+    .button_mobile_align {
+        text-align: center;
+    }
+
+    .all_tarif {
+        padding: 0 2em;
+    }
+
+    .tarif_box {
+        margin: 1em 0;
+
+    }
+
+    .carousel_hidden {
+        display: none;
+    }
+
+    .telefonie_background_1 {
+        width: 100%;
+        height: 200px;
+        background-position: center;
+        background-size: 100%;
+    }
+
+    .telefonie_background_2 {
+        width: 100%;
+        height: 200px;
+        background-position: center;
+        background-size: 100%;
+    }
+
+    .swap_rows {
+        flex-direction: column-reverse;
+        flex-wrap: wrap-reverse;
+    }
+
+    .navbar {
+        height: auto !important;
+    }
+
+    .telefonanlage_list h3 {
+        margin-top: 1em;
+    }
+
+    .telefonanlage_list h3,
+    p {
+        text-align: center;
+    }
+
+    .margin_between_telefonie_products {
+        margin-top: 2em;
+    }
+
+    .card_border {
+        padding: .5em 0;
+    }
+
+    .nomik_images {
+        display: none;
+    }
+
+    .telefonie-product-section .tarif_box {
+        margin: 2em 2em;
+
+    }
+
+
+}
+
+/* MOBILE PAGE */
+.mobile_heading {
+    font-size: 64px;
+    text-decoration-line: underline;
+    color: #4F4F4F;
+}
+
+.mobile_background {
+    background: url(../img/419x398_homenet_box_promo.png) center center;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+}
+
+.mobile_tarife_content p {
+    padding-right: 9em;
+    padding-left: 0;
+}
+
+.mobile_tarif h1 {
+    margin-bottom: 0;
+}
+
+.mobile_content_divider {
+    margin: 1em 0 15em;
+
+}
+
+.carousel-content_mobile {
+    position: absolute;
+    bottom: 15%;
+    left: 37%;
+    right: 45%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    font-size: 64px;
+    line-height: 1.5em;
+    white-space: nowrap;
+}
+
+.carousel-content_mobile_1 {
+    position: absolute;
+    bottom: 15%;
+    left: 29%;
+    right: 45%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    font-size: 64px;
+    line-height: 1.5em;
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    .mobile_tarife_content p {
+        padding-right: 0;
+    }
+
+    .mobile_background {
+        width: 50%;
+        height: 200px;
+        background-position: center;
+        background-size: 100%;
+    }
+
+    .festnetz_background {
+        height: 200px;
+        background-position: center center;
+        background-size: 25%;
+
+    }
+
+    .mobile_content_divider {
+        margin: 3em 0 5em;
+        text-align: left;
+    }
+
+    .mobile_content_divider p {
+        text-align: left;
+    }
+}
+
+
+
+
+/* FESTNETZ */
+.festnetz_background {
+    background: url(../img/SLA.png) center center;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 400px;
+}
+
+.festnetz_product h2 {
+    font-size: 24px;
+    color: #4F4F4F;
+}
+
+.festnetz_product p {
+    font-size: 16px;
+    color: #828282;
+    letter-spacing: 0.1px;
+
+}
+
+.festnetz_product h1 {
+    font-size: 36px;
+    color: #4F4F4F;
+}
+
+.festnetz_tarifen h4 {
+    color: #424B5A;
+    font-size: 16px;
+    ;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.festnetz_tarifen h5 {
+    color: #BE1623;
+    font-size: 16px;
+    ;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding: 0.5em 1em;
+}
+
+
+.background_color_white_blue {
+    background-color: #F2F5F7;
+}
+
+/* MacBook/Laptopa */
+@media only screen and (min-width: 767px) and (max-width: 1440px) {
+
+    .product_section h2 {
+        white-space: normal;
+    }
+
+    .tarif_box {
+        margin-right: 2em;
+    }
+
+    .tarif_box h2 {
+        font-size: 40px;
+        text-align: center;
+
+    }
+
+    .btn_action {
+        background-color: #4F4F4F;
+        border: none;
+        border-radius: 0px;
+        padding: .6em 4em;
+        margin: 3em 0 2em 0;
+        font-size: 14px;
+    }
+
+    .all_tarif p {
+        padding: 0;
+    }
+
+    .all_tarif h2 {
+        font-size: 30px;
+    }
+
+    .carousel-content {
+        font-size: 17px;
+    }
+
+    .about_nomik {
+        margin: 2em 0 0 0;
+    }
+
+    .about_nomik img {
+        margin-top: 11em;
+        width: 140%;
+    }
+
+    .about_nomik p {
+        font-size: 15px;
+    }
+
+    .mobile_marketing_left_content {
+        padding: 0em !important;
+    }
+
+    .carousel-content_mobile {
+        font-size: 54px;
+    }
+
+    .mac_image {
+        width: 130%;
+    }
+
+    /* zika -medium */
+
+
+    .Der_Charakter_Box {
+        height: auto;
+
+    }
+
+    .main_left_content {
+        margin: 10em 0em 7em 10em;
+    }
+
+
+}
+
+/* MOBILE_MARKETING_PAGE */
+.mobile_marketing_section_one {
+    padding: 6em 8em;
+}
+
+.mobile_marketing_left_content {
+    padding: 0 7em;
+}
+
+.mobile_marketing_left_content h2 {
+    color: #BE1623;
+    text-decoration: underline;
+    font-size: 36px;
+}
+
+.mobile_marketing_left_content h3 {
+    color: #4F4F4F;
+    line-height: 32px;
+    font-size: 24px;
+}
+
+.mobile_marketing_left_content p {
+    color: #4F4F4F;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.mobile_table h3 {
+    font-size: 24px;
+    line-height: 32px;
+    color: #4F4F4F;
+}
+
+.mobile_table p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #4F4F4F;
+}
+
+.mm_table_border {
+    border: 1px solid #A1AEB7;
+}
+
+.mm_table_border .row {
+    padding: 0 4em;
+}
+
+.mm_row_background_color {
+    background: #F2F5F7;
+}
+
+.mobile_marketing_background_image {
+    background: url(../img/adults-casual-cellphone-1413653.png) center center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.mm_collapse_arrow {
+    position: absolute;
+    right: 120px;
+
+}
+
+.btn-link {
+    color: #4F4F4F;
+}
+
+.btn-link:hover {
+    color: #4F4F4F;
+    text-decoration: none;
+}
+
+
+.accordion-content>* {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.magenta-table th,
+.magenta-table td {
+    text-align: right;
+}
+
+.magenta-table th {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: bold;
+    padding: 0 20px 5px 0;
+}
+
+.magenta-table th:first-child,
+.magenta-table td:first-child {
+    text-align: left;
+}
+
+.magenta-table td:first-child {
+    padding-left: 20px;
+    border-left: 1px solid #e6e6e6;
+}
+
+.magenta-table td {
+    padding: 15px 20px 15px 0;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.magenta-table span {
+    font-size: 15px;
+}
+
+.magenta-table td:last-child {
+    border-right: 1px solid #e6e6e6;
+}
+
+.magenta-table .c2 {
+    width: 20%;
+}
+
+.magenta-table th,
+.magenta-table td {
+    text-align: right;
+}
+
+/* .magenta-table .c2 {
+    width: 16.66666667%;
+} */
+
+
+/* MOBILE PAGE RESPONSIVE */
+@media (max-width: 767px) {
+    .mobile_marketing_section_one {
+        padding: 0;
+    }
+
+    .mm_collapse_arrow {
+        display: none;
+    }
+
+    .mobile_marketing_background_image {
+        height: 200px;
+        background-position: center center;
+        background-size: 80%;
+    }
+
+    .mobile_marketing_left_content {
+        padding: 2em;
+        text-align: center;
+        margin-top: 1em;
+
+    }
+
+    .mac_image {
+        width: 100%;
+    }
+
+    .flottenmanagment_list ul {
+        text-align: left;
+    }
+}
+
+.flottenmanagment_list ul {
+    color: #4F4F4F;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    padding-left: 1.1em;
+}
+
+.flottenmanagment_list {
+    padding-top: 3em;
+}
+
+/* MOBILE DEVICE MANAGEMENT */
+.maintext {
+    margin-bottom: 1rem;
+    font-weight: bold;
+
+}
+
+.listtext {
+
+    margin-bottom: 1.5rem;
+}
+
+.list {
+    padding-left: 20px;
+}
+
+.mit {
+    padding-left: 1rem;
+}
+
+/*WAS IST MOBILE DEVICE MANAGEMENT -FIRST ROW*/
+.first {
+    background-color: #F2F5F7;
+    padding: 4rem 0rem;
+}
+
+
+/*SO PROFITITIEREN SIE VOON MDM -SECOND ROW*/
+.second {
+    padding: 4rem 6rem;
+}
+
+/*DIE VORTEILE DER MDM- THIRD ROW*/
+.third {
+    padding: 4rem 6rem;
+}
+
+/*SILVER BOX CONTAINER (GOOGLE ZERO_BLACKBERRY_7P_KNOX MANAGE)*/
+.fourth {
+    background-color: #F2F5F7;
+}
+
+.silver {
+    padding: 5rem;
+    padding-bottom: 2rem;
+}
+
+.silver1 {
+    padding: 5rem;
+    padding-top: 2rem;
+}
+
+.btn1 {
+    background-color: #4F4F4F !important;
+}
+
+/*MOBILE AND FLEX ROTATION */
+
+@media only screen and (max-width: 767px) {
+    .row_reverse {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .first {
+        padding: 1rem;
+
+    }
+
+    .second {
+        padding: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .third {
+        padding: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .silver {
+        padding: 1rem;
+        padding-bottom: 2rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .silver1 {
+        padding: 1rem;
+        padding-top: 2rem;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* FOOTER */
+
+.main_footer {
+    width: 100%;
+    height: auto;
+}
+
+.footer_align {
+    margin: 50px auto 50px auto;
+    width: 100%;
+}
+
+.footer_align ul {
+
+    margin-left: 5.5em;
+    text-align: left;
+    line-height: 30px;
+    list-style: none;
+    color: #A1AEB7;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 0;
+}
+
+.footer_align .social_media {
+    padding-left: 0px;
+}
+
+.footer_align .social_media img {
+    margin: 10px 0 0 14px;
+}
+
+.footer_align .copyright {
+    font-size: 11px;
+}
+
+.footer_border_top {
+    border-top: 1px solid #c2d1d9;
+
+}
+
+.footer_border_top img {
+    margin-top: -2em;
+    margin-bottom: 1.5em;
+}
+
+.footer_align a {
+    text-decoration: none;
+    color: #A1AEB7;
+}
+
+.footer_right_border {
+    margin-top: 2em;
+    border-right: 1px solid #c2d1d9;
+}
+
+.footer_right_border:last-child {
+    border: none;
+}
+
+.footer_img p {
+    color: #A1AEB7;
+    font-size: 14px;
+}
+
+.footer_img {
+    margin-left: 8em;
+}
+
+.footer_align a:hover {
+    color: #161617;
+}
+
+.social_media i {
+    padding-top: .7em;
+    padding-right: 1em;
+    font-size: 25px;
+    color: #4F4F4F;
+}
+
+.social_media {
+    margin-left: 0 !important;
+    list-style: none;
+}
+
+.headline {
+    color: #4F4F4F;
+}
+
+.colors {
+    text-align: center;
+    width: 25px;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.btn-info.disabled,
+.btn-info:disabled {
+    color: #fff;
+    background-color: #4F4F4F;
+    border-color: #4F4F4F;
+}
+
+.btn-info.focus,
+.btn-info:focus {
+    box-shadow: 0 0 0 0.2rem #4F4F4F;
+}
+
+.btn-info:not(:disabled):not(.disabled):active {
+    border-color: #4F4F4F;
+}
+
+@media (max-width: 768px) {
+    .footer_right_border {
+        margin-top: 2em;
+        border-right: none;
+    }
+
+    .footer_img {
+        margin: 0;
+    }
+
+    .footer_align {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .footer_align ul {
+        margin: 0;
+        text-align: center;
+    }
+
+    /* .main_left_content {
+        margin: 30em 0em 7em 2em;
+    } */
+}
+
+
+
+
+
+
+
+/* TABLET - IPAD  */
+
+@media only screen and (max-device-width : 1024px) {
+
+    .Der_Charakter_Box {
+        height: auto;
+        padding: 0;
+    }
+}

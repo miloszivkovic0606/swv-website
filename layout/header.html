@@ -1,0 +1,78 @@
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139339617-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-139339617-1');
+</script>
+
+
+<!-- Navbar-->
+<nav class="navbar navbar-expand-md navbar-default pistac probootstrap-navbar">
+    <div class="container-fluid header_wrapper">
+        <div class="d-flex flex-grow-1">
+            <span class="w-100 d-lg-none d-none">
+                <a class="navbar-brand-two d-none d-lg-inline-block"  href="index.php">
+                    <img class="logo" src="../assets/img/logo_main.png" alt="logo" id="greatphoto">
+                </a>
+            </span>
+            <a class="navbar-brand-two d-none d-lg-inline-block"  href="index.php">
+                 <img class="logo" src="../assets/img/logo_main.png" id="greatphoto" alt="logo">
+            </a>
+            <a class="navbar-brand-two mx-auto d-lg-none d-inline-block"  href="index.php">
+                <img class="logo" src="../assets/img/logo_main.png" id="greatphoto" alt="logo">
+            </a>          
+            <div class="w-100 text-right">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon custom-toggler"></span>
+                </button>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="pages/telefonie.php"  id="telefonie"  class="nav-link m-2 menu-item <?php if($page=='telefonie'){echo 'navActive';}?>">Telefonie</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle m-2 menu-item <?php if($page=='mobile' or $page=='festnetz'){echo 'navActive';}?>">Internet 
+                        <img src="../assets/img/_.svg" class="dropdown_arrow_red" alt="">
+                        <img src="../assets/img/dropdown_arrow.svg" class="dropdown_arrow_white" alt="">
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="pages/festnetz.php">Festnetz Internet</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="pages/mobile.php">Mobiles Internet</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link m-2 menu-item dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >Software und Service
+                            <img src="../assets/img/_.svg" class="dropdown_arrow_red" alt="">
+                            <img src="../assets/img/dropdown_arrow.svg" class="dropdown_arrow_white" alt="">
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Festnetz Internet</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Mobiles Internet</a>
+                        </div>
+                </li>
+                <li class="nav-item">
+                    <a href="../index.php#top"  id="contact" class="nav-link m-2 menu-item ct-js-btn-scroll">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+</nav>
+
+<script>
+    document.getElementById("telefonie").onclick = function () {
+    location.href = "telefonie.php";
+};
+    // document.getElementById("internet").onclick = function () {
+    // location.href = "internet.php";
+    // };
+</script>
+
+
+
